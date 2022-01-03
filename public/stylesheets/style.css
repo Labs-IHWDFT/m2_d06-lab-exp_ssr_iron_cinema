@@ -1,8 +1,32 @@
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+}
+
+.hero h1 {
+  position: absolute;
+  font-size: 3rem;
+  top: 30%;
+  right: 10%;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 45%;
+  right: 10%;
 }
