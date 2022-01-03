@@ -17,16 +17,18 @@ a {
   color: whitesmoke;
 }
 
-.hero h1 {
+.hero {
   position: absolute;
-  font-size: 3rem;
-  top: 30%;
+  top: 20%;
   right: 10%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  position: relative;
 }
 
 .hero h3 {
   font-size: 1.5rem;
-  position: absolute;
-  top: 45%;
-  right: 10%;
+  position: relative;
 }
